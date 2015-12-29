@@ -1,3 +1,7 @@
+# Dependencies
+Godeps/_workspace
+
+# Revel
 test-results/
 tmp/
 routes/

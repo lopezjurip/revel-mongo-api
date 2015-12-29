@@ -1,0 +1,36 @@
+{
+	"ImportPath": "github.com/mrpatiwi/revel-mongo-api",
+	"GoVersion": "go1.5.2",
+	"Packages": [
+		"./app"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/agtorre/gocolorize",
+			"Comment": "v1.0.0",
+			"Rev": "f42b554bf7f006936130c9bb4f971afd2d87f671"
+		},
+		{
+			"ImportPath": "github.com/revel/revel",
+			"Comment": "v0.12.0-3-ga9a2ff4",
+			"Rev": "a9a2ff45fae4330ef4116b257bcf9c82e53350c2"
+		},
+		{
+			"ImportPath": "github.com/robfig/config",
+			"Rev": "0f78529c8c7e3e9a25f15876532ecbc07c7d99e6"
+		},
+		{
+			"ImportPath": "github.com/robfig/pathtree",
+			"Rev": "41257a1839e945fce74afd070e02bab2ea2c776a"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "1d9fd3b8333e891c0e7353e1adcfe8a612573033"
+		},
+		{
+			"ImportPath": "gopkg.in/fsnotify.v1",
+			"Comment": "v1.2.8",
+			"Rev": "508915b7500b6e42a87132e4afeb4729cebc7cbb"
+		}
+	]
+}
