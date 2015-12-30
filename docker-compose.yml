@@ -1,5 +1,10 @@
 web:
   build: .
   restart: always
+  links:
+    - mongo
   ports:
     - '80:9000'
+
+mongo:
+  image: mongo
