@@ -1,0 +1,10 @@
+language: go
+
+sudo: false
+
+script:
+  - go get github.com/revel/cmd/revel 
+  - revel test github.com/mrpatiwi/revel-mongo-api
+
+go:
+  - 1.5.2
